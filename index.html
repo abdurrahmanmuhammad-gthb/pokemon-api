@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon API</title>
+  </head>
+  <body>
+    <h1>Pokemon API</h1>
+    <p>Welcome to the Pokémon app.</p>
+    <div id="pokemon-list">
+      <script = fetchPokemon('https://pokeapi.co/api/v2/pokemon?limit=20&offset=20')></script>
+    <button id="previous-page"  onclick="previousPage()">Previous Page</button>
+    <button id="next-page" onclick="nextPage()">Next Page</button>
+    <div id="pokemon-details"> fetchPokemonDetails</div>
+    <button id="view pokemon-details" onclick="viewDetails()"> View Pokemon Details</button>
+    </div>
+
+  </body>
+</html>
